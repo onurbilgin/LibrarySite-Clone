@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>İzmir Demokrasi Üniversitesi Kütüphanesi</title>
+    <link rel="shortcut icon" href="images/loo.png">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .mySlides {
+            display: none;
+        }
+
+        .sosyalMedya li {
+            display: inline-block;
+            float: right;
+            margin: auto
+        }
+
+    </style>
+</head>
+
+<body>
+    <header id="site-header" class="header-area">
+        <div class="header-inner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sosyalMedya" style="list-style-type: none;">
+                            <li style="padding-right: 10px; padding-bottom: 10px;"><a href="https://www.facebook.com/idu.edu.tr/" target="_blank"> <img src="images/iconfinder_FB_1217141.png" style="width: 30px; height: 30px; "> </a></li>
+                            <li style="padding-right: 10px; padding-bottom: 10px;"><a href="https://twitter.com/izmirdemokrasi1" target="_blank"> <img src="images/iconfinder_TWITTER_1217163.png" style="width: 30px; height: 30px;"> </a>
+                            </li>
+                            <li style="padding-right: 10px; padding-bottom: 10px;"><a href="https://www.instagram.com/izmirdemokrasi/" target="_blank"> <img src="images/iconfinder_INSTAGRAM_1217174.png" style="width: 30px; height: 30px;"> </a>
+                            </li>
+
+                        </div>
+                        <div class="logo-menu-wrap hidden-xs hidden-sm">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="images/idu.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sticky-header"></div>
+
+        <div class="mobile-menu">
+            <a class="mobile-logo" href="index.html"></a>
+        </div>
+    </header>
+    <br> 
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/id%C3%BC1.jpg" style="width:100%">
+        <img class="mySlides" src="images/id%C3%BC2.jpg" style="width:100%">
+        <img class="mySlides" src="images/id%C3%BC3.jpg" style="width:100%">
+        <img class="mySlides" src="images/id%C3%BC4.jpg" style="width:100%">
+        <img class="mySlides" src="images/id%C3%BC5.jpg" style="width:100%">
+        <img class="mySlides" src="images/id%C3%BC6.jpg" style="width:100%">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+
+    <div class="login-page page-wrapper s-pd100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-8">
+                    <div class="login-form-area">
+                        <form action="http://bdevs.net/edulab/edulab/post">
+                            <h2>İZMİR DEMOKRASİ ÜNİVERSİTESİ KÜTÜPHANE GİRİŞİ</h2>
+                            <div id="socila-login" class="social-login-area">
+                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <div class="divider-or text-center">
+
+                            </div>
+                            <p><input class="form-control" type="text" name="log" id="user_login" placeholder=" Email"></p>
+                            <p><input class="form-control" type="password" name="pwd" id="user_pass" placeholder="Parola"></p>
+                            <div>
+                                <a href="index.html" type="submit" class="btn mbr-title-font btn-block btn-lg btn-primary"> <span class="mbri-paper-plane mbr-iconfont mbr-iconfont-btn" style="font-size: 20px;">
+                                    </span>&nbsp;Giriş Yap</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-copyright-area bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center" style="color: white">
+                            &copy; İzmir Demokrasi Üniversitesi Kütüphane ve Dokümantasyon Dairesi Başkanlığı.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery-v3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>
